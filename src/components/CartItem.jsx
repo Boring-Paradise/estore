@@ -7,7 +7,7 @@ export const CartItem = ({ item }) => {
   const { removeFromCart, increaseAmount, decreaseAmount } =
     useContext(CartContext);
 
-  const something = "text1";
+
 
   const { id, title, image, price, amount } = item;
   return (
